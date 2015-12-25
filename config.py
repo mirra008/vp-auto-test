@@ -22,6 +22,6 @@ INCLUDE = [
 Exclude dirs, modules, test cases or test methods.
 """
 EXCLUDE = [
-    "module1.submodule1.test_submodule1.Submodule1TestCase.test_method_sub1_2",
+    #"module1.submodule1.test_submodule1.Submodule1TestCase.test_method_sub1_2",
 ]
 
