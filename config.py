@@ -14,8 +14,8 @@ If you want to include single test method you should use form module.path:ClassN
 Run all tests if empty.
 """
 INCLUDE = [
-    "module1/submodule1",
-    "module2.test_module21:Module21TestCase.test_method21_1",
+    #"module1/submodule1",
+    #"module2.test_module21:Module21TestCase.test_method21_1",
 ]
 
 """
@@ -23,5 +23,6 @@ Exclude dirs, modules, test cases or test methods.
 """
 EXCLUDE = [
     #"module1.submodule1.test_submodule1.Submodule1TestCase.test_method_sub1_2",
+    "module1"
 ]
 
