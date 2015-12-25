@@ -26,3 +26,8 @@ EXCLUDE = [
     "module1"
 ]
 
+BROWSERS = [
+    "chrome",
+    "firefox",
+    "ie"
+]

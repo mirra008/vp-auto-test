@@ -26,8 +26,8 @@ def main():
         argv += ["--exclude-test=%s" % t for t in exclude_tests]
 
     test_runner = None
-    if is_running_under_teamcity():
-        test_runner = TeamcityTestRunner()
+    # if is_running_under_teamcity():
+    #     runner = TeamcityTestRunner()
     nose.run(argv=argv, testRunner=test_runner)
 
 if __name__ == "__main__":
