@@ -27,7 +27,7 @@ def main():
 
     test_runner = None
     if is_running_under_teamcity():
-        runner = TeamcityTestRunner()
+        test_runner = TeamcityTestRunner()
     nose.run(argv=argv, testRunner=test_runner)
 
 if __name__ == "__main__":
